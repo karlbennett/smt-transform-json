@@ -25,6 +25,8 @@ public class JsonParserBuilder implements ParserBuilder<JsonParser> {
         final CharStream charStream = new ANTLRInputStream(source);
 
         final JsonLexer lexer = new JsonLexer(charStream);
+        lexer.removeErrorListeners();
+        lexer.addErrorListener(new LoggingErrorListener());
 
         final TokenStream tokenStream = new BufferedTokenStream(lexer);
 
