@@ -1,0 +1,8 @@
+[jsonObject][jsonText]{[jsonText][jsonObject]
+    [STRING][member]"one"[member][STRING] [member]:[member][jsonValue],[jsonValue]
+    [STRING][member]"two"[member][STRING]  [NUMBER][jsonNumber][jsonValue]2[jsonValue][jsonNumber][NUMBER],
+    [STRING][member]"three"[member][STRING] [member]:[member] ['null'][jsonValue]null[jsonValue]['null'],
+    [STRING][member]"four"[member][STRING] [member]:[member] [jsonArray][jsonValue][[jsonValue][jsonArray][NUMBER][jsonNumber][jsonValue]1[jsonValue][jsonNumber][NUMBER] [NUMBER]2[NUMBER], [NUMBER][jsonNumber][jsonValue]3[jsonValue][jsonNumber][NUMBER], [NUMBER][jsonNumber][jsonValue]4[jsonValue][jsonNumber][NUMBER][jsonArray]][jsonArray],
+    [STRING][member]"five"[member][STRING] [member]:[member] [jsonObject][jsonValue]{[jsonValue][jsonObject]
+        [STRING][member]"status"[member][STRING] [member]:[member] ['true'][jsonValue]true[jsonValue]['true']
+[jsonObject]}[jsonObject]

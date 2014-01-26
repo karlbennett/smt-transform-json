@@ -1,0 +1,9 @@
+{
+    [STRING]"one"[STRING] : [STRING]"one"[STRING],
+    [STRING]"two"[STRING] : [NUMBER]2[NUMBER],
+    [STRING]"three"[STRING] : ['null']null['null'],
+    [STRING]"four"[STRING] : [[NUMBER]1[NUMBER], [NUMBER]2[NUMBER], [NUMBER]3[NUMBER], [NUMBER]4[NUMBER]],
+    [STRING]"five"[STRING] : {
+        [STRING]"status"[STRING] : ['true']true['true']
+    }
+}

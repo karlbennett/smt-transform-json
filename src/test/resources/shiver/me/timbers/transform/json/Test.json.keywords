@@ -1,0 +1,9 @@
+{
+    "one" : "one",
+    "two" : 2,
+    "three" : [keyword]null[keyword],
+    "four" : [1, 2, 3, 4],
+    "five" : {
+        "status" : [keyword]true[keyword]
+    }
+}

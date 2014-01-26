@@ -1,0 +1,9 @@
+{
+    [member]"one"[member] : "one",
+    [member]"two"[member] : 2,
+    [member]"three"[member] : null,
+    [member]"four"[member] : [1, 2, 3, 4],
+    [member]"five"[member] : {
+        [member]"status"[member] : true
+    }
+}
