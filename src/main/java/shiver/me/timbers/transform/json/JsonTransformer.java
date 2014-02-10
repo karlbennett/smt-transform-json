@@ -6,7 +6,7 @@ import shiver.me.timbers.transform.antlr4.Antlr4StringTransformer;
 import javax.activation.MimeType;
 
 /**
- * A StringTransformer for XML, it will apply any Transformations that have names matching the different token and rule
+ * A StringTransformer for JSON, it will apply any Transformations that have names matching the different token and rule
  * names. These names can be found in the {@link JsonParser#tokenNames} and {@link JsonParser#ruleNames} arrays.
  */
 public class JsonTransformer extends Antlr4StringTransformer<JsonParser> {
